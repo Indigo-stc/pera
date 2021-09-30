@@ -50,4 +50,10 @@ public class Agencia {
         return telefono;
     }
 
+    @Override
+    public String toString() {
+        return String.format("%s%s&s", nombre, direccion, telefono);
+    }
+
+    
 }
